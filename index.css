@@ -1,0 +1,42 @@
+.container{
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+body{
+    background-color: #cccccc;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.overlay{
+   
+    position: fixed;
+    z-index: 999;
+    overflow: show;
+    margin: auto;
+    margin-top: auto;
+    top:0;
+    left:0;
+    bottom: 0;
+    opacity: 0.5;
+    right: 0;
+    background-color: #cccccc;
+}
+.spinner-border{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    width: 100px;
+    height: 100px;
+   
+}
+table{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
