@@ -13,6 +13,7 @@ var identificador=0;
           if (!form.checkValidity() || !ValidateEmail()) {
             
             console.log('si algo anda mal')
+            form.classList.add('was-validated')
           }else{
               guardar();
           }
