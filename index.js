@@ -15,7 +15,7 @@ var identificador=0;
             console.log('si algo anda mal')
             form.classList.add('was-validated')
           }else{
-              guardar();
+             guardar();
           }
   
         }, false)
@@ -55,8 +55,11 @@ var identificador=0;
     }
     function guardar(){
         showSpinner();
-        setValues();
-        setTimeout(hideSpinner,2000);
+       
+        setTimeout(hideSpinner,3000);
+        var formulario = document.getElementById('formulario');
+        formulario.submit();
+        //setTimeout(setValues,2000);
         
     }
     function clearValues(){
@@ -94,14 +97,14 @@ var identificador=0;
             placa:placav
         }
         addToTable(informacion);
-        //clearValues();
+        clearValues();
     }
    
     function addToTable(datos){
         var tabla = document.getElementById('table-content');
 
       
-      var tr ="<tr>";
+      var tr ="<tr class='table-tr'>";
        
        tr +=`<td>${identificador}</td>`;
        tr+=`<td>${datos.nombre}</td>`

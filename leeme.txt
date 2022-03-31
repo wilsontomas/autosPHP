@@ -1,0 +1,3 @@
+la base de datos es el archivo autos.sql
+antes debe crear una bd en mysql llamada
+ 'autos' y importar el archivo.

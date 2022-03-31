@@ -41,4 +41,7 @@ table{
     overflow-x: auto;
     white-space: nowrap;
 }
-
+.table-tr:hover{
+    color: white;
+    background-color: #6610f2;
+}
